@@ -1,0 +1,54 @@
+# R and targets
+.Rhistory
+.RData
+.Rproj.user/
+_targets/
+renv/library/
+renv/staging/
+renv/local/
+
+# pipeline outputs (rebuilt by targets::tar_make())
+data/
+
+# Quarto outputs
+reports/**/_site/
+reports/**/*_files/
+reports/**/*.html
+reports/**/*.pdf
+reports/**/*.docx
+.quarto/
+
+# Python caches from the extraction scripts
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Quarto reports: rendered output and cache
+reportes/**/_salida/
+reportes/**/.quarto/
+# machine-specific Quarto settings (QUARTO_R path to the R version in renv.lock)
+reportes/**/_environment.local
+
+# Lists of drawn juntas: confidential, never in the repository
+reportes/sorteo/
+
+# ---- not shared: the repository is public (owner, 23 Oct 2026) --------------------------
+# Internal project log (English) and working notes: they describe the client's decisions
+README_en.md
+CLAUDE.md
+.claude/
+# Deliverables for the client (technical report sources, lists of drawn juntas) and
+# superseded drafts
+reportes/
+# Material from the first proposal (prototype on a synthetic frame), superseded
+reference/
+# Partial 2019 extraction, superseded by the complete file
+data-raw/cne2019_prefecto_pichincha_juntas_parcial.csv
+# Local settings and editor folders
+*.local
+.Renviron
+.positron/
+.vscode/

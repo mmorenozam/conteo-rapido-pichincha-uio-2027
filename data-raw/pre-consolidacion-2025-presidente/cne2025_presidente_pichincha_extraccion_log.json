@@ -1,0 +1,180 @@
+{
+ "generado": "2026-10-20T10:55:18.038734+00:00",
+ "fuente": "https://app01.cne.gob.ec/Resultados2025/ (POST Resultados/ConsultaInformacionResultados, una consulta por junta)",
+ "dignidad": "PRESIDENTE Y VICEPRESIDENTE",
+ "archivos_entrada": [
+  {
+   "archivo": "cne2025_d11_c60_CANTON.csv",
+   "filas": 97200,
+   "juntas": 6075,
+   "sha256": "8a5e611ed086e7117bb7de8a87871bba724f6bcbb3e839a11ecc12fd2ad24480"
+  },
+  {
+   "archivo": "cne2025_d11_c65_CANTON.csv",
+   "filas": 3728,
+   "juntas": 233,
+   "sha256": "b13dbe483b10fdd9f8cda3742589bbc493600e53ca0eb6bb8c9b09eab2759f54"
+  },
+  {
+   "archivo": "cne2025_d11_c65_p4765_JUAN-MONTALVO.csv",
+   "filas": 288,
+   "juntas": 18,
+   "sha256": "eebe08076e4293b9060828997f8d493bf1662d214e5c170506b34d36e0551be3"
+  },
+  {
+   "archivo": "cne2025_d11_c70_CANTON.csv",
+   "filas": 3584,
+   "juntas": 224,
+   "sha256": "606821c223a367524ef501fa4185ac04a1197ef576dd640e1701f2d409c2f1d0"
+  },
+  {
+   "archivo": "cne2025_d11_c75_CANTON.csv",
+   "filas": 1488,
+   "juntas": 93,
+   "sha256": "91316b68e2871101ee753571b3bb5d0ade5ddcf4d06440d6d27725246b0b7ac9"
+  },
+  {
+   "archivo": "cne2025_d11_c770_CANTON.csv",
+   "filas": 640,
+   "juntas": 40,
+   "sha256": "bb95e8224de5ee4a2eedde59ad41d6a179fb99e90dc974277f855d752e98b3da"
+  },
+  {
+   "archivo": "cne2025_d11_c80_CANTON.csv",
+   "filas": 4464,
+   "juntas": 279,
+   "sha256": "6dd307e4f9494b86e185dd4ba56f4d68b72314a8673a4155d3617ec234279eef"
+  },
+  {
+   "archivo": "cne2025_d11_c895_CANTON.csv",
+   "filas": 672,
+   "juntas": 42,
+   "sha256": "5031e314676399553609916af4825e6f9f011f5c491dcdf53e29996f3c213fa8"
+  },
+  {
+   "archivo": "cne2025_d11_c896_CANTON.csv",
+   "filas": 912,
+   "juntas": 57,
+   "sha256": "525906568fb042419cb6b043c4a7bbdff11d68233df3beeb0cae08ddf0c91e91"
+  }
+ ],
+ "resultado": {
+  "filas_brutas": 112976,
+  "conflictos_duplicados": 0,
+  "filas": 112976,
+  "juntas": 7061,
+  "parroquias": 96,
+  "parroquias_faltantes": [],
+  "parroquias_extra": [],
+  "juntas_suma_inconsistente": 1045,
+  "brecha_neta_votos": -839,
+  "actas": {
+   "validas": 7061,
+   "novedad": 0,
+   "por_procesar": 0
+  },
+  "celdas_comparadas": 3072,
+  "celdas_distintas": 0,
+  "votos_validos_spss": 1870489,
+  "votos_validos_web": 1870489,
+  "spss_sufragantes_blancos_nulos": [
+   2008373,
+   17625,
+   119420
+  ],
+  "web_sufragantes_blancos_nulos": [
+   2008373,
+   17625,
+   119420
+  ],
+  "distributivo_rangos_duplicados": 0,
+  "juntas_con_recinto": 7051,
+  "recintos": 464,
+  "juntas_sin_recinto": [
+   {
+    "parroquia_codigo": 5220,
+    "parroquia": "COTOCOLLAO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 5
+   },
+   {
+    "parroquia_codigo": 5220,
+    "parroquia": "COTOCOLLAO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 7
+   },
+   {
+    "parroquia_codigo": 5260,
+    "parroquia": "CHILLOGALLO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 4
+   },
+   {
+    "parroquia_codigo": 5260,
+    "parroquia": "CHILLOGALLO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 6
+   },
+   {
+    "parroquia_codigo": 7140,
+    "parroquia": "CENTRO HISTORICO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 5
+   },
+   {
+    "parroquia_codigo": 7140,
+    "parroquia": "CENTRO HISTORICO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 9
+   },
+   {
+    "parroquia_codigo": 7185,
+    "parroquia": "KENNEDY",
+    "zona_codigo": 61,
+    "zona": "CPPL MASCULINO PICHINCHA N° 1",
+    "junta": "1M",
+    "sufragantes": 93
+   },
+   {
+    "parroquia_codigo": 7185,
+    "parroquia": "KENNEDY",
+    "zona_codigo": 61,
+    "zona": "CPPL MASCULINO PICHINCHA N° 1",
+    "junta": "2M",
+    "sufragantes": 33
+   },
+   {
+    "parroquia_codigo": 7220,
+    "parroquia": "PONCEANO",
+    "zona_codigo": 61,
+    "zona": "CRS MASCULINO PICHINCHA N° 2",
+    "junta": "1M",
+    "sufragantes": 9
+   },
+   {
+    "parroquia_codigo": 7230,
+    "parroquia": "QUITUMBE",
+    "zona_codigo": 61,
+    "zona": "CPL PICHINCHA N° 3",
+    "junta": "1F",
+    "sufragantes": 1
+   }
+  ],
+  "juntas_distributivo": 7051,
+  "juntas_distributivo_sin_resultado": [],
+  "archivo_consolidado": "cne2025_presidente_pichincha_juntas.csv",
+  "sha256": "bfcc5a889726d9f57dbe9d61986a5b70e981bee7cc5a9578df0454c4e562fbd9"
+ }
+}

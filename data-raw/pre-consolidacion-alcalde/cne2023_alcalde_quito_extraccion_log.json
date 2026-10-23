@@ -1,0 +1,140 @@
+{
+ "generado": "2026-10-19T21:41:03.868509+00:00",
+ "fuente": "https://app01.cne.gob.ec/Resultados2023/ (POST Resultados/ConsultaInformacionResultados, una consulta por junta)",
+ "dignidad": "ALCALDESA / ALCALDE",
+ "archivos_entrada": [
+  {
+   "archivo": "cne2023_d13_c60_CANTON.csv",
+   "filas": 71400,
+   "juntas": 5950,
+   "sha256": "d5d119ae2dfeec042635fdcd95e1ead19485603809dcefa632bab2eac18d926a"
+  }
+ ],
+ "resultado": {
+  "filas_brutas": 71400,
+  "conflictos_duplicados": 0,
+  "filas": 71400,
+  "juntas": 5950,
+  "parroquias": 65,
+  "parroquias_faltantes": [],
+  "parroquias_extra": [],
+  "juntas_suma_inconsistente": 829,
+  "brecha_neta_votos": -581,
+  "actas": {
+   "validas": 5950,
+   "novedad": 0,
+   "por_procesar": 0
+  },
+  "celdas_comparadas": 1560,
+  "celdas_distintas": 0,
+  "votos_validos_spss": 1381728,
+  "votos_validos_web": 1381728,
+  "spss_sufragantes_blancos_nulos": [
+   1665124,
+   53579,
+   229236
+  ],
+  "web_sufragantes_blancos_nulos": [
+   1665124,
+   53579,
+   229236
+  ],
+  "distributivo_rangos_duplicados": 0,
+  "juntas_con_recinto": 5939,
+  "recintos": 379,
+  "juntas_sin_recinto": [
+   {
+    "parroquia_codigo": 5220,
+    "parroquia": "COTOCOLLAO",
+    "zona_codigo": 61,
+    "zona": "CRS MASCULINO PICHINCHA NÂº 2",
+    "junta": "1M",
+    "sufragantes": 15
+   },
+   {
+    "parroquia_codigo": 5220,
+    "parroquia": "COTOCOLLAO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 7
+   },
+   {
+    "parroquia_codigo": 5220,
+    "parroquia": "COTOCOLLAO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 6
+   },
+   {
+    "parroquia_codigo": 5260,
+    "parroquia": "CHILLOGALLO",
+    "zona_codigo": 61,
+    "zona": "CPL PICHINCHA NÂº 3",
+    "junta": "1F",
+    "sufragantes": 1
+   },
+   {
+    "parroquia_codigo": 5260,
+    "parroquia": "CHILLOGALLO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 6
+   },
+   {
+    "parroquia_codigo": 5260,
+    "parroquia": "CHILLOGALLO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 5
+   },
+   {
+    "parroquia_codigo": 5260,
+    "parroquia": "CHILLOGALLO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "2M",
+    "sufragantes": 5
+   },
+   {
+    "parroquia_codigo": 7140,
+    "parroquia": "CENTRO HISTORICO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 5
+   },
+   {
+    "parroquia_codigo": 7140,
+    "parroquia": "CENTRO HISTORICO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 9
+   },
+   {
+    "parroquia_codigo": 7185,
+    "parroquia": "KENNEDY",
+    "zona_codigo": 61,
+    "zona": "CPPL MASCULINO PICHINCHA NÂº 1",
+    "junta": "1F",
+    "sufragantes": 1
+   },
+   {
+    "parroquia_codigo": 7185,
+    "parroquia": "KENNEDY",
+    "zona_codigo": 61,
+    "zona": "CPPL MASCULINO PICHINCHA NÂº 1",
+    "junta": "1M",
+    "sufragantes": 24
+   }
+  ],
+  "juntas_distributivo": 5939,
+  "juntas_distributivo_sin_resultado": [],
+  "archivo_consolidado": "cne2023_alcalde_quito_juntas.csv",
+  "sha256": "879765b6b4680e130cd823983c16660470d1a87f59dc37a2e14210733732a47e"
+ }
+}

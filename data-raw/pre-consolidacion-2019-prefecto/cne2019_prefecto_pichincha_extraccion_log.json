@@ -1,0 +1,384 @@
+{
+ "generado": "2026-10-21T07:56:15.733644+00:00",
+ "fuente": "https://app01.cne.gob.ec/Resultados2019/ (postback asíncrono btnConsultar, una consulta por junta)",
+ "dignidad": "PREFECTO Y VICEPREFECTO",
+ "archivos_entrada": [
+  {
+   "archivo": "cne2019_d2_c60_CANTON.csv",
+   "filas": 107136,
+   "juntas": 5952,
+   "sha256": "33f6f7f7db0f2c544067c6581bb08ce95ca33b22e298d15dce78322222e8c4f0"
+  },
+  {
+   "archivo": "cne2019_d2_c65_CANTON.csv",
+   "filas": 3996,
+   "juntas": 222,
+   "sha256": "1a3df2ab8d50c655ae1bd3c5a4c09a00ad705414c2eb1167b9253f6ad1f8c225"
+  },
+  {
+   "archivo": "cne2019_d2_c70_CANTON.csv",
+   "filas": 3672,
+   "juntas": 204,
+   "sha256": "c88e50769e8d02b5cb7aec2998752be1c554f1e66f566b1f18863382a7af0293"
+  },
+  {
+   "archivo": "cne2019_d2_c75_CANTON.csv",
+   "filas": 1422,
+   "juntas": 79,
+   "sha256": "a7a65918600e2c12f2fd603cbb438df1c0c129a522ee8fd5e0372d38bc255079"
+  },
+  {
+   "archivo": "cne2019_d2_c770_CANTON.csv",
+   "filas": 666,
+   "juntas": 37,
+   "sha256": "ce363dc6c2bf22c07585f1cef6958ef70aca98e54a9198f0c28f10ab0bf5191a"
+  },
+  {
+   "archivo": "cne2019_d2_c80_CANTON.csv",
+   "filas": 4734,
+   "juntas": 263,
+   "sha256": "9fe5f6ab1a00f3d6a05e2cfb9a9dd71dcc778c29fbf0142d8cbb2b027c60eb85"
+  },
+  {
+   "archivo": "cne2019_d2_c895_CANTON.csv",
+   "filas": 684,
+   "juntas": 38,
+   "sha256": "d2c0ebe4f4e7a4582228944e1daa7753800598bc9050c0381ba68932d6f605fb"
+  },
+  {
+   "archivo": "cne2019_d2_c896_CANTON.csv",
+   "filas": 918,
+   "juntas": 51,
+   "sha256": "4e622e1303ce999523f137bb04211cfaccba22e456db7e0310a85fa0093dfd28"
+  }
+ ],
+ "resultado": {
+  "filas_brutas": 123228,
+  "conflictos_duplicados": 0,
+  "filas": 123228,
+  "juntas": 6846,
+  "parroquias": 96,
+  "cantones_extraidos": [
+   60,
+   65,
+   70,
+   75,
+   80,
+   770,
+   895,
+   896
+  ],
+  "cantones_no_extraidos": [],
+  "spss_candidatos_sin_nombre": 0,
+  "parroquias_faltantes": [],
+  "parroquias_extra": [],
+  "juntas_suma_inconsistente": 1084,
+  "brecha_neta_votos": -480,
+  "actas": {
+   "procesadas": 6846,
+   "validas": 6846,
+   "inconsistentes": 0,
+   "en_validacion": 0
+  },
+  "celdas_comparadas": 3456,
+  "celdas_distintas": 0,
+  "votos_validos_spss": 1405641,
+  "votos_validos_web": 1405641,
+  "spss_sufragantes_blancos_nulos": [
+   1916096,
+   144630,
+   365345
+  ],
+  "web_sufragantes_blancos_nulos": [
+   1916096,
+   144630,
+   365345
+  ],
+  "distributivo_rangos_duplicados": 0,
+  "parroquias_emparejadas_aprox": [],
+  "zonas_emparejadas_aprox": [
+   {
+    "canton": "QUITO",
+    "parroquia": "CENTRO HISTORICO",
+    "web": "VOTO EN CASA",
+    "distributivo": null,
+    "similitud": 0.38
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "CHILLOGALLO",
+    "web": "CRS FEMENINO QUITO ATENCION PRIORITARIA",
+    "distributivo": null,
+    "similitud": 0.27
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "CHILLOGALLO",
+    "web": "VOTO EN CASA",
+    "distributivo": null,
+    "similitud": 0.45
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "COTOCOLLAO",
+    "web": "CRS MASCULINO EL CONDADO",
+    "distributivo": null,
+    "similitud": 0.28
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "COTOCOLLAO",
+    "web": "VOTO EN CASA",
+    "distributivo": null,
+    "similitud": 0.45
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON ALTAMIRA",
+    "distributivo": null,
+    "similitud": 0.28
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON AMAZONAS",
+    "distributivo": null,
+    "similitud": 0.31
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON BATAN",
+    "distributivo": null,
+    "similitud": 0.22
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON BOSQUE",
+    "distributivo": null,
+    "similitud": 0.33
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON CEIBOS",
+    "distributivo": null,
+    "similitud": 0.33
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON CONDADO",
+    "distributivo": null,
+    "similitud": 0.28
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON CUMBAYA",
+    "distributivo": null,
+    "similitud": 0.28
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON DORADO",
+    "distributivo": null,
+    "similitud": 0.18
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON FLORESTA",
+    "distributivo": null,
+    "similitud": 0.31
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON MIRAFLORES",
+    "distributivo": null,
+    "similitud": 0.3
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON PLACER",
+    "distributivo": null,
+    "similitud": 0.2
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON QUITO TENIS",
+    "distributivo": null,
+    "similitud": 0.3
+   },
+   {
+    "canton": "QUITO",
+    "parroquia": "KENNEDY",
+    "web": "CPPL MASCULINO EL INCA PABELLON TOLA",
+    "distributivo": null,
+    "similitud": 0.23
+   }
+  ],
+  "juntas_unidas_sin_zona": 0,
+  "juntas_con_recinto": 6825,
+  "recintos": 388,
+  "juntas_sin_recinto": [
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "COTOCOLLAO",
+    "zona": "CRS MASCULINO - EL CONDADO",
+    "junta": "1M",
+    "sufragantes": 3
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "COTOCOLLAO",
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 4
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "COTOCOLLAO",
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 11
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "CHILLOGALLO",
+    "zona": "CRS FEMENINO - QUITO (Atención Prioritaria)",
+    "junta": "1F",
+    "sufragantes": 3
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "CHILLOGALLO",
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 5
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "CHILLOGALLO",
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 7
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "CENTRO HISTORICO",
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 5
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "CENTRO HISTORICO",
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 5
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON ALTAMIRA",
+    "junta": "1M",
+    "sufragantes": 4
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON AMAZONAS",
+    "junta": "1M",
+    "sufragantes": 3
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON BATAN",
+    "junta": "1M",
+    "sufragantes": 15
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON BOSQUE",
+    "junta": "1M",
+    "sufragantes": 28
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON CEIBOS",
+    "junta": "1M",
+    "sufragantes": 11
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON CONDADO",
+    "junta": "1M",
+    "sufragantes": 7
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON CUMBAYA",
+    "junta": "1M",
+    "sufragantes": 11
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON DORADO",
+    "junta": "1M",
+    "sufragantes": 5
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON FLORESTA",
+    "junta": "1M",
+    "sufragantes": 9
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON MIRAFLORES",
+    "junta": "1M",
+    "sufragantes": 9
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON PLACER",
+    "junta": "1M",
+    "sufragantes": 10
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON QUITO TENIS",
+    "junta": "1M",
+    "sufragantes": 6
+   },
+   {
+    "canton_nombre": "QUITO",
+    "parroquia": "KENNEDY",
+    "zona": "CPPL MASCULINO - EL INCA / PABELLON TOLA",
+    "junta": "1M",
+    "sufragantes": 10
+   }
+  ],
+  "juntas_distributivo": 6825,
+  "juntas_distributivo_sin_resultado": [],
+  "archivo_consolidado": "cne2019_prefecto_pichincha_juntas.csv",
+  "sha256": "254aa455887fc028e2b3e515789381789fcfd3df0b67513bca7fc7cab56ad9da"
+ }
+}

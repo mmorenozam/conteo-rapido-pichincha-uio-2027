@@ -1,0 +1,290 @@
+{
+ "generado": "2026-10-19T15:44:03.050018+00:00",
+ "fuente": "https://app01.cne.gob.ec/Resultados2023/ (POST Resultados/ConsultaInformacionResultados, una consulta por junta)",
+ "dignidad": "PREFECTA / PREFECTO",
+ "archivos_entrada": [
+  {
+   "archivo": "cne2023_d11_c60_CANTON.csv",
+   "filas": 71400,
+   "juntas": 5950,
+   "sha256": "fe3a30917f6251ab363f7093b33d1c477406342d6889ff4a313ae438ca65ecfc"
+  },
+  {
+   "archivo": "cne2023_d11_c65_p165_ASCAZUBI.csv",
+   "filas": 156,
+   "juntas": 13,
+   "sha256": "2d01af0788a378adde39d7857f4ce2c4a2f2062679637b1b7a9b085155bc7119"
+  },
+  {
+   "archivo": "cne2023_d11_c65_p2600_OLMEDO-PESILLO.csv",
+   "filas": 228,
+   "juntas": 19,
+   "sha256": "d0613ad3f39f483267aba24e1727541b510dc0a0d6913fd48950d3a0fc92b476"
+  },
+  {
+   "archivo": "cne2023_d11_c65_p2635_OTON.csv",
+   "filas": 96,
+   "juntas": 8,
+   "sha256": "4de3005c51308d569f36736979e36220c3ea9597ff2c4e52395680fd0a02272b"
+  },
+  {
+   "archivo": "cne2023_d11_c65_p3735_STA-ROSA-DE-CUSUBAMBA.csv",
+   "filas": 120,
+   "juntas": 10,
+   "sha256": "4cb47a5e954e6a33a4e268c9109537aaade56381d9f51bd47aee26a7a5ba0ef4"
+  },
+  {
+   "archivo": "cne2023_d11_c65_p4620_SAN-JOSE-DE-AYORA.csv",
+   "filas": 252,
+   "juntas": 21,
+   "sha256": "e90c4ef7ca99c9508d4d15093d0de6afddf6d21f64a222046b9cda23b63b6c53"
+  },
+  {
+   "archivo": "cne2023_d11_c65_p480_CANGAHUA.csv",
+   "filas": 492,
+   "juntas": 41,
+   "sha256": "8525473dc59494e48b6f48eb4358fa151cadc010fe4636c68dbc3fe6652eab79"
+  },
+  {
+   "archivo": "cne2023_d11_c65_p5190_CAYAMBE.csv",
+   "filas": 1380,
+   "juntas": 115,
+   "sha256": "424c2099bc53a6365d817f0506bc4abe57e57c5f5e4f26dda5be40589571c92f"
+  },
+  {
+   "archivo": "cne2023_d11_c65_p5495_JUAN-MONTALVO.csv",
+   "filas": 168,
+   "juntas": 14,
+   "sha256": "fba1acaf2de29470cef6f5f3b616b039862a37b9f887f129183729cbfdbe37f0"
+  },
+  {
+   "archivo": "cne2023_d11_c70_CANTON.csv",
+   "filas": 468,
+   "juntas": 39,
+   "sha256": "276d02740221e6d8584e4d2c2a3f59e101451d9e19938ce5a3bf9158276739a8"
+  },
+  {
+   "archivo": "cne2023_d11_c70_p55_ALOAG.csv",
+   "filas": 276,
+   "juntas": 23,
+   "sha256": "80360818a63a8a3198d7c62b507131aaa1c183296e819411e5de8e6ae1ed34ec"
+  },
+  {
+   "archivo": "cne2023_d11_c70_p5620_MACHACHI.csv",
+   "filas": 1044,
+   "juntas": 87,
+   "sha256": "e732df7daab4c1938054f5ed1fe25bea11b819dcd335ec040bb77f5f001700dc"
+  },
+  {
+   "archivo": "cne2023_d11_c70_p60_ALOASI.csv",
+   "filas": 204,
+   "juntas": 17,
+   "sha256": "804abf844eb1ad762c78d36fabbe0c0a2a9825890ac1c9b7a9db233dc1b884e8"
+  },
+  {
+   "archivo": "cne2023_d11_c70_p650_CORNEJO-ASTORGA-TANDAPI.csv",
+   "filas": 96,
+   "juntas": 8,
+   "sha256": "46d9f6f14414770acb6f5e60734d8d0ff8e0d8f5c6230253f3fb17aaf0ad6ff1"
+  },
+  {
+   "archivo": "cne2023_d11_c70_p755_CUTUGLAGUA.csv",
+   "filas": 480,
+   "juntas": 40,
+   "sha256": "36485aa81a81ab88ee08f0b7746d407a1a2a929b1bc3602320d147715ff94fc0"
+  },
+  {
+   "archivo": "cne2023_d11_c70_p850_CHAUPI.csv",
+   "filas": 48,
+   "juntas": 4,
+   "sha256": "443ce4fecf64d1bab37b3abe27e56d080c2ec65562641a4260c5cdfde37e1364"
+  },
+  {
+   "archivo": "cne2023_d11_c75_CANTON.csv",
+   "filas": 1068,
+   "juntas": 89,
+   "sha256": "d327ce72222e1d6aa6226a1f2c79292e5fd5425a2bb3d094024c3825076689bc"
+  },
+  {
+   "archivo": "cne2023_d11_c770_CANTON.csv",
+   "filas": 468,
+   "juntas": 39,
+   "sha256": "196ca3ce773fcd484da347dd4fa75600d6c6e7d938981c57f7dfe89e90ecacc1"
+  },
+  {
+   "archivo": "cne2023_d11_c80_p3230_RUMIPAMBA.csv",
+   "filas": 24,
+   "juntas": 2,
+   "sha256": "93e79be20092efa0f27fd94308d0617175fda06a92a8f7c8859ed3ff7b9a9b37"
+  },
+  {
+   "archivo": "cne2023_d11_c80_p5965_SANGOLQUI.csv",
+   "filas": 2232,
+   "juntas": 186,
+   "sha256": "860a5e3a7c889ff3de3bc9e1280f8d386ed667fdf6c697385e7b6579cb087ad3"
+  },
+  {
+   "archivo": "cne2023_d11_c80_p6600_SAN-RAFAEL.csv",
+   "filas": 576,
+   "juntas": 48,
+   "sha256": "e00abe038dbc0cabadc6852e392ba77a99e22458912aba7a4f29d78e16d25e5d"
+  },
+  {
+   "archivo": "cne2023_d11_c80_p6605_SAN-PEDRO-DE-TABOADA.csv",
+   "filas": 252,
+   "juntas": 21,
+   "sha256": "548936896f4b27ff605b0f36a2383847f507c084157075cc0941d78ebd4910c9"
+  },
+  {
+   "archivo": "cne2023_d11_c80_p680_COTOGCHOA.csv",
+   "filas": 96,
+   "juntas": 8,
+   "sha256": "f50b720f37effb1114100cd447beea9fe2f858a118f951de4de38543d0a10ff7"
+  },
+  {
+   "archivo": "cne2023_d11_c80_p7535_FAJARDO.csv",
+   "filas": 60,
+   "juntas": 5,
+   "sha256": "91f4b9484249f97ac23e0203193f81dc48df4f9db97f52ff79b60f174f927f70"
+  },
+  {
+   "archivo": "cne2023_d11_c895_CANTON.csv",
+   "filas": 480,
+   "juntas": 40,
+   "sha256": "410f47472613bba45495cc4c7d5fa712db8c4b1ae130d2a0456a6d7d0993cfa9"
+  },
+  {
+   "archivo": "cne2023_d11_c896_CANTON.csv",
+   "filas": 672,
+   "juntas": 56,
+   "sha256": "b47781fc6bfa2ea190bce4b82458742156a13ff79b899f962677b4f4d5610587"
+  }
+ ],
+ "resultado": {
+  "filas_brutas": 82836,
+  "conflictos_duplicados": 0,
+  "filas": 82836,
+  "juntas": 6903,
+  "parroquias": 96,
+  "parroquias_faltantes": [],
+  "parroquias_extra": [],
+  "juntas_suma_inconsistente": 910,
+  "brecha_neta_votos": -557,
+  "actas": {
+   "validas": 6903,
+   "novedad": 0,
+   "por_procesar": 0
+  },
+  "celdas_comparadas": 2304,
+  "celdas_distintas": 0,
+  "votos_validos_spss": 1489812,
+  "votos_validos_web": 1489812,
+  "spss_sufragantes_blancos_nulos": [
+   1945156,
+   105012,
+   349775
+  ],
+  "web_sufragantes_blancos_nulos": [
+   1945156,
+   105012,
+   349775
+  ],
+  "distributivo_rangos_duplicados": 0,
+  "juntas_con_recinto": 6892,
+  "recintos": 450,
+  "juntas_sin_recinto": [
+   {
+    "parroquia_codigo": 5220,
+    "parroquia": "COTOCOLLAO",
+    "zona_codigo": 61,
+    "zona": "CRS MASCULINO PICHINCHA NÂº 2",
+    "junta": "1M",
+    "sufragantes": 15
+   },
+   {
+    "parroquia_codigo": 5220,
+    "parroquia": "COTOCOLLAO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 7
+   },
+   {
+    "parroquia_codigo": 5220,
+    "parroquia": "COTOCOLLAO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 6
+   },
+   {
+    "parroquia_codigo": 5260,
+    "parroquia": "CHILLOGALLO",
+    "zona_codigo": 61,
+    "zona": "CPL PICHINCHA NÂº 3",
+    "junta": "1F",
+    "sufragantes": 1
+   },
+   {
+    "parroquia_codigo": 5260,
+    "parroquia": "CHILLOGALLO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 6
+   },
+   {
+    "parroquia_codigo": 5260,
+    "parroquia": "CHILLOGALLO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 5
+   },
+   {
+    "parroquia_codigo": 5260,
+    "parroquia": "CHILLOGALLO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "2M",
+    "sufragantes": 5
+   },
+   {
+    "parroquia_codigo": 7140,
+    "parroquia": "CENTRO HISTORICO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1F",
+    "sufragantes": 5
+   },
+   {
+    "parroquia_codigo": 7140,
+    "parroquia": "CENTRO HISTORICO",
+    "zona_codigo": 89,
+    "zona": "VOTO EN CASA",
+    "junta": "1M",
+    "sufragantes": 9
+   },
+   {
+    "parroquia_codigo": 7185,
+    "parroquia": "KENNEDY",
+    "zona_codigo": 61,
+    "zona": "CPPL MASCULINO PICHINCHA NÂº 1",
+    "junta": "1F",
+    "sufragantes": 1
+   },
+   {
+    "parroquia_codigo": 7185,
+    "parroquia": "KENNEDY",
+    "zona_codigo": 61,
+    "zona": "CPPL MASCULINO PICHINCHA NÂº 1",
+    "junta": "1M",
+    "sufragantes": 24
+   }
+  ],
+  "juntas_distributivo": 6892,
+  "juntas_distributivo_sin_resultado": [],
+  "archivo_consolidado": "cne2023_prefecto_pichincha_juntas.csv",
+  "sha256": "768e020ec53bc242a56475b3dd8ee5b4e5cf5f91a2d3cbc6fc83ec5dac3209e5"
+ }
+}
